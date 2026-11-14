@@ -136,7 +136,6 @@ void cleanup() {
     //Quit SDL
     SDL_Quit();
 }
-
 int main() {
     //Initialize window
     if (!initWindow()) {
