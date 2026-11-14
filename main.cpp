@@ -314,7 +314,6 @@ int main() {
         updateLogic(dt);
         drawFrame();
     }
-
     cleanup();
     return 0;
 }
