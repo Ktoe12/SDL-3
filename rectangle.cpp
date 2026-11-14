@@ -1,5 +1,7 @@
 #include "rectangle.h"
 
+#include <glm/vec2.hpp>
+
 Rectangle::Rectangle() {
     this->width = 0;
     this->height = 0;
