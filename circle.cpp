@@ -1,5 +1,8 @@
 #include "circle.h"
 
+#include <glm/vec2.hpp>
+#include <glm/common.hpp>
+
 void plotPoints(SDL_Renderer *renderer, int x, int y, Circle circle) {
     SDL_SetRenderDrawColor(renderer,
                            circle.color.r,
